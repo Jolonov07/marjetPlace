@@ -1,0 +1,78 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+	font-family: Fred;
+	src: url('/fonts/0ts4bgxBay0i.woff');
+}
+
+body {
+  font-family: Fred;
+}
+
+.body {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  padding-top: 200px;
+  font-size: 40px;
+  font-weight: 300;
+  color: #757373;
+  margin-bottom: 20px;
+}
+
+.main {
+  background-color: #F7F7F8;
+  width: 670px;
+  height: 500px;
+  border-radius: 0 40px;
+  margin-bottom: 80px;
+}
+
+.main form {
+  position: relative;
+  margin: auto;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form input {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 30px;
+  border: 1px solid #DDDDDD;
+  background-color: white;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form .register {
+  background-color: #DDDDDD;
+  box-shadow: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+form .btn:hover {
+  background-color: #757373;
+  color: whitesmoke;
+}
+
+form .btn:active {
+  background-color: #454545;
+  color: whitesmoke;
+}
